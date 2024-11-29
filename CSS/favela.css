@@ -1,0 +1,482 @@
+body, h1, h2, p, ul, li, a {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #222222;
+    background-color: #fffaf8;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  /* Superinfo */
+  .superinfo-bg {
+    background: #ed7d45;
+    color: white;
+  }
+
+  
+  .superinfo {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 10px;
+  }
+  
+  .superinfo p, .superinfo a {
+    margin: 0 10px 10px 10px;
+  }
+  
+  .superinfo a {
+    color: #fffaf8;
+  }
+  .menu-bg {
+    background: #fffaf8;
+  }
+  
+  .menu {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu a {
+    color: #657131;
+  }
+  
+  .menu-nav a {
+    color: #000000;
+  }
+  
+  .menu-logo a {
+    font-size: 2.25em;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+  
+  .menu-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .menu-nav a {
+    font-size: 1.25em;
+    display: block;
+    padding: 10px;
+  }
+  .menu-nav a:hover{
+    color:#b0522a
+ }
+
+ /*Introdução*/
+.introducao {
+    font-size: 3em;
+    line-height: 1;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 10px;
+}
+
+.introducao .subtitulo {
+    font-size: 0.5em; /* Ajuste conforme necessário */
+    display: block;
+    margin-top: 10px; /* Para espaçamento opcional */
+    color:#222222
+}
+
+/*Sobre*/
+.sobre {
+    border-top: 2px solid #ed7d45;
+    border-bottom: 2px solid #ed7d45;
+    max-width: 960px;
+    margin:0 auto;
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sobre-info {
+    flex: 2 1 300px;
+    margin: 0 px;
+}
+
+.sobre-info h1 {
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+.sobre-info p {
+    font: size 1.25em;
+    line-height: 1.4;
+    margin-bottom: 1em;
+    color: #7c7c7c;
+}
+
+.sobre-img {
+    flex: 1 1 200px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+/*ORIGEM*/
+.origem-img {
+    flex: 1 1 200px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+.origem {
+
+    border-bottom: 2px solid #ed7d45;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0;
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+
+.origem-info {
+    flex: 2 1 300px;
+    margin: 0 10px;
+}
+
+.origem-info h1 {
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+.origem-info p {
+    font: size 1.25em;
+    line-height: 1.4;
+    margin-bottom: 1em;
+    color: #3d3d3d;
+    text-align: justify;
+}
+
+/*ORIGEM*/
+.origem-img {
+    flex: 1 1 200px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+.brasil {
+
+    border-bottom: 2px solid #ed7d45;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0;
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+
+.brasil-info {
+    flex: 2 1 300px;
+    margin: 0 10px;
+}
+
+.brasil-info h1 {
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+.brasil-info p {
+    font: size 1.25em;
+    line-height: 1.4;
+    margin-bottom: 1em;
+    color: #3d3d3d;
+    text-align: justify;
+}
+.brasil-img {
+    flex: 1 1 200px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+/*Infancia pag 2*/
+.infancia {
+        border-top: 2px solid #ed7d45;
+        border-bottom: 2px solid #ed7d45;
+        max-width: 960px;
+        margin:0 auto;
+        padding: 60px 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+.infancia-info {
+    flex: 2 1 300px;
+    margin: 0 10px;
+}
+
+.infancia-info h1 {
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+.infancia-info p {
+    font: size 1.25em;
+    line-height: 1.4;
+    margin-bottom: 1em;
+    color: #3d3d3d;
+    text-align: justify;
+}
+.infancia-img {
+    flex: 1 1 200px;
+    margin: 0 10px;
+    border-radius: 5px;
+    
+}
+
+/*educação*/
+.edu {
+   
+    border-bottom: 2px solid #ed7d45;
+    max-width: 960px;
+    margin:0 auto;
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.edu-info {
+flex: 2 1 300px;
+margin: 0 10px;
+}
+
+.edu-info h1 {
+font-size: 3em;
+margin-bottom: .5em;
+}
+.edu-info p {
+font: size 1.25em;
+line-height: 1.4;
+margin-bottom: 1em;
+color: #3d3d3d;
+text-align: justify;
+}
+.edu-img {
+flex: 1 1 200px;
+margin: 0 10px;
+border-radius: 5px;
+
+}
+/*Trabalho*/
+.trabalho {
+    border-bottom: 2px solid #ed7d45;
+    max-width: 960px;
+    margin:0 auto;
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.trabalho-info {
+flex: 2 1 300px;
+margin: 0 10px;
+}
+
+.trabalho-info h1 {
+font-size: 3em;
+margin-bottom: .5em;
+}
+.trabalho-info p {
+font: size 1.25em;
+line-height: 1.4;
+margin-bottom: 1em;
+color: #3d3d3d;
+text-align: justify;
+}
+
+.trabalho-img {
+    width: 100%; /* Garante que a imagem se ajuste ao contêiner */
+    display: flex;
+    justify-content: center; /* Centraliza a imagem */
+    margin-top: 20px; /* Espaço entre o texto e a imagem */
+}
+
+.trabalho-img img {
+    max-width: 100%; /* Redimensiona a imagem para caber no contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 5px; /* Bordas arredondadas para a imagem */
+    
+}
+
+/*grafico*/
+.grafico {
+    border-bottom: 2px solid #ed7d45;
+    max-width: 960px;
+    margin:0 auto;
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.grafico-info {
+flex: 2 1 300px;
+margin: 0 10px;
+}
+
+.grafico-info h1 {
+font-size: 3em;
+margin-bottom: .5em;
+}
+.grafico-info p {
+font: size 1.25em;
+line-height: 1.4;
+margin-bottom: 1em;
+color: #3d3d3d;
+text-align: justify;
+}
+
+.grafico-img {
+    width: 100%; /* Garante que a imagem se ajuste ao contêiner */
+    display: flex;
+    justify-content: center; /* Centraliza a imagem */
+    margin-top: 20px; /* Espaço entre o texto e a imagem */
+}
+
+.grafico-img img {
+    max-width: 100%; /* Redimensiona a imagem para caber no contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 5px; /* Bordas arredondadas para a imagem */
+}
+
+
+
+
+
+
+
+
+/*Produtos*/
+.produtos {
+    max-width: 960px;
+    margin: 60px auto;
+}
+
+.produtos h1 {
+    font-size: 3em;
+    margin: 0 10px 60px 10px;
+}
+
+.produtos-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.produtos-item {
+    flex: 1 1 175px;
+    margin: 10px;
+}
+
+.produtos-item h2 {
+    font-size: 3em;
+    color: #a4a4a4;
+    background: #f7f7f7;
+    padding: 60px 20px;
+}
+
+.purple {
+    border-top: 8px solid #ed7d45;
+}
+
+
+
+/*Newsletter*/
+
+.newsletter {
+    background: #f7f7f7;
+    padding: 60px calc((100% - 960px) / 2 );
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newsletter-info h1 {
+    flex: 1 1 240px;
+    margin: 0 10px;
+}
+
+.newsletter-info h1 {
+    font-size: 3em;
+    color: #a4a4a4;
+}
+
+.newsletter-info p {
+    font-size: 1.25em;
+    font-style: italic;
+    max-width: 230px;
+    color: #7c7c7c;
+    margin-bottom: 10px;
+}
+
+.newsletter-form {
+    flex: 2 1 260px;
+    margin: 0 10px;
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newsletter-form input {
+    flex: 3 1 260px;
+    font-size: 1.25em;
+    color: #7c7c7c;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 4px solid #ed7d45;
+    background: transparent;
+    padding: 15px 10px;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+.newsletter-form button {
+    flex: 1 1 260px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.25em;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #6f927f;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+    border-color: #6f927f;
+    border-radius: 10px;
+    padding: 15px 10px;
+}
+
+@media (max-width: 600px) {
+    .newsletter-form button {
+        font-size: 1.5em;
+    }
+}
+
+/*Footer*/
+
+.footer {
+    display: flex;
+    background: #ed7d45;
+    height: 100px;
+    align-items: center;
+}
+
+.footer p {
+    flex: 1;
+    text-align: center;
+    font-size: 1.25em;
+    color: #f2e5d3;
+}
